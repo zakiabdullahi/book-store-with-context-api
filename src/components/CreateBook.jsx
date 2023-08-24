@@ -33,7 +33,7 @@ const CreateBook = () => {
     navigate("/books");
   };
   return (
-    <div className="mt-28 md:mt-0">
+    <div className="mt-24 md:mt-0">
       <div className=" pl-6 flex flex-col   items-center">
         <h1 className="dark:text-white">Create Book</h1>
         <form
