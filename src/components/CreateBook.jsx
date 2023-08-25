@@ -33,9 +33,9 @@ const CreateBook = () => {
     navigate("/books");
   };
   return (
-    <div className="mt-24 md:mt-0">
-      <div className=" pl-6 flex flex-col   items-center">
-        <h1 className="dark:text-white">Create Book</h1>
+    <div className="mt-36">
+      <h1 className="dark:text-white text-center">Create Book</h1>
+      <div className=" pl-6 flex   items-center">
         <form
           onSubmit={handleSubmit}
           className="w-[500px] flex flex-col space-y-4 p-4"
