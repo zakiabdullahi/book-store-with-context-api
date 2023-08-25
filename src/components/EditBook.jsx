@@ -38,7 +38,7 @@ const EditBook = () => {
   };
   return (
     <div>
-      <h1 className="text-center">Edit Book</h1>
+      <h1 className="text-center dark:text-white">Edit Book</h1>
       <div className=" pl-6 flex items-center  justify-center">
         <form
           onSubmit={handleSubmit}
